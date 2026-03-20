@@ -1,6 +1,14 @@
-Jan 10 10:15:32 server sshd[1234]: Failed password for invalid user admin from 192.168.1.10 port 22 ssh2
-Jan 10 10:15:35 server sshd[1235]: Failed password for invalid user root from 192.168.1.10 port 22 ssh2
-Jan 10 10:15:40 server sshd[1236]: Failed password for invalid user test from 192.168.1.10 port 22 ssh2
-Jan 10 10:16:02 server sshd[1237]: Failed password for invalid user guest from 10.0.0.5 port 22 ssh2
-Jan 10 10:16:10 server sshd[1238]: Failed password for invalid user user from 10.0.0.5 port 22 ssh2
-Jan 10 10:16:15 server sshd[1239]: Accepted password for elisee from 192.168.1.20 port 22 ssh2
+Jan 10 10:14:58 server CRON[1102]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 10 10:15:07 server systemd[1]: Started Session 42 of user root.
+Jan 10 10:15:32 server sshd[1234]: Failed password for invalid user admin from 192.168.1.10 port 50312 ssh2
+Jan 10 10:15:35 server sshd[1235]: Failed password for invalid user root from 192.168.1.10 port 50340 ssh2
+Jan 10 10:15:40 server sshd[1236]: Failed password for invalid user test from 192.168.1.10 port 50388 ssh2
+Jan 10 10:15:49 server sshd[1236]: Connection closed by invalid user test 192.168.1.10 port 50388 [preauth]
+Jan 10 10:16:02 server sshd[1237]: Failed password for invalid user guest from 10.0.0.5 port 51102 ssh2
+Jan 10 10:16:10 server sshd[1238]: Failed password for invalid user user from 10.0.0.5 port 51144 ssh2
+Jan 10 10:16:15 server sshd[1239]: Accepted password for elisee from 192.168.1.20 port 51422 ssh2
+Jan 10 10:16:18 server sshd[1239]: pam_unix(sshd:session): session opened for user elisee(uid=1001) by (uid=0)
+Jan 10 10:17:01 server sudo:   elisee : TTY=pts/0 ; PWD=/home/elisee ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+Jan 10 10:17:14 server sshd[1244]: Failed password for invalid user backup from 203.0.113.24 port 49801 ssh2
+Jan 10 10:17:19 server sshd[1245]: Received disconnect from 203.0.113.24 port 49801:11: Bye Bye [preauth]
+Jan 10 10:18:03 server systemd-logind[701]: New session 43 of user elisee.
